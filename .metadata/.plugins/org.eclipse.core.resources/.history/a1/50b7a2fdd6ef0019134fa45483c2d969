@@ -1,0 +1,12 @@
+package com.udaan.interview;
+
+public class GetBalanceErrorResponseModel {
+	private int httpCode;
+	private String httpMessage;
+	private String moreInformation;
+    
+
+    public Integer giveErrorCode() {
+        throw new RuntimeException("Not implemented yet");
+    }
+}

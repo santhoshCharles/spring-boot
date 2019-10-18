@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo-1"/>
+<aop-project name="demo"/>
+<aop-project name="Topic-Api"/>
+<aop-project name="Course-Api-1"/>
+</aop-reference-model>

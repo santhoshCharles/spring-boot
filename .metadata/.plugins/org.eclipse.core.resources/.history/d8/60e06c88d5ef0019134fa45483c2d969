@@ -1,0 +1,24 @@
+package com.udaan.interview;
+
+public class GetBalanceModel {
+    private GetBalanceResponseDetails getBalanceResponse;
+
+    public GetBalanceModel() {
+    }
+
+    public GetBalanceModel(com.udaan.interview.GetBalanceResponseDetails getBalanceResponse) {
+        this.getBalanceResponse = getBalanceResponse;
+    }
+
+    public com.udaan.interview.GetBalanceResponseDetails getGetBalanceResponse() {
+        return getBalanceResponse;
+    }
+
+    public void setGetBalanceResponse(com.udaan.interview.GetBalanceResponseDetails getBalanceResponse) {
+        this.getBalanceResponse = getBalanceResponse;
+    }
+
+    public Double giveBalance() {
+        return this.getBalanceResponse.accountBalanceAmount;
+    }
+}

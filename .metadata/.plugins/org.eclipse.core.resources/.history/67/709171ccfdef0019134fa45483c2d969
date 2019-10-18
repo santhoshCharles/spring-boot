@@ -1,0 +1,20 @@
+package com.udaan.interview;
+
+/**
+ * TODO - Make other 2 classes extend this
+ */
+public class GetBalanceBaseModel {
+	private GetBalanceResponseDetails getBalanceResponse;
+
+	public GetBalanceBaseModel(GetBalanceResponseDetails getBalanceResponse) {
+		this.getBalanceResponse = getBalanceResponse;
+	}
+
+	public GetBalanceResponseDetails getGetBalanceResponse() {
+		return getBalanceResponse;
+	}
+
+	public void setGetBalanceResponse(GetBalanceResponseDetails getBalanceResponse) {
+		this.getBalanceResponse = getBalanceResponse;
+	}
+}

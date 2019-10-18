@@ -1,0 +1,28 @@
+package com.udaan.interview;
+
+public class GetBalanceErrorResponseModel {
+	private GetBalanceErrorResponseModelDetails getBalanceErrorResponseModelDetails;
+    
+
+    public GetBalanceErrorResponseModelDetails getGetBalanceErrorResponseModelDetails() {
+		return getBalanceErrorResponseModelDetails;
+	}
+
+
+	public void setGetBalanceErrorResponseModelDetails(
+			GetBalanceErrorResponseModelDetails getBalanceErrorResponseModelDetails) {
+		this.getBalanceErrorResponseModelDetails = getBalanceErrorResponseModelDetails;
+	}
+
+
+	public GetBalanceErrorResponseModel(GetBalanceErrorResponseModelDetails getBalanceErrorResponseModelDetails) {
+		super();
+		this.getBalanceErrorResponseModelDetails = getBalanceErrorResponseModelDetails;
+	}
+
+
+	public Integer giveErrorCode() {
+		System.out.println("giveErrorCode"+this.getBalanceErrorResponseModelDetails.httpCode);
+        return this.getBalanceErrorResponseModelDetails.getHttpCode();
+    }
+}
