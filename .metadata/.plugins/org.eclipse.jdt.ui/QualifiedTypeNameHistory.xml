@@ -16,4 +16,8 @@
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.udaan.interview.GetBalanceErrorResponseModelDetails"/>
+<fullyQualifiedTypeName name="mainTest.TestClass"/>
+<fullyQualifiedTypeName name="com.udaan.interview.GetBalanceModel"/>
+<fullyQualifiedTypeName name="com.udaan.interview.GetBalanceResponseDetails"/>
 </qualifiedTypeNameHistroy>

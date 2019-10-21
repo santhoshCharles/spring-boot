@@ -1,7 +1,0 @@
-package com.udaan.interview;
-
-/**
- * TODO - Make other 2 classes extend this
- */
-public class GetBalanceBaseModel {
-}

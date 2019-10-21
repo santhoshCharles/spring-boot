@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="code" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.udaan.interview.AppTest" time="0.388">
-    <testcase name="shouldDeserialiseGetBalanceResponse" classname="com.udaan.interview.AppTest" time="0.38"/>
-    <testcase name="shouldDeserialiseErrorRespone" classname="com.udaan.interview.AppTest" time="0.004"/>
-    <testcase name="shouldHandleBothInputStringsInSingleClassHierarchy" classname="com.udaan.interview.AppTest" time="0.004"/>
-  </testsuite>
-</testrun>
