@@ -20,4 +20,8 @@
 <fullyQualifiedTypeName name="mainTest.TestClass"/>
 <fullyQualifiedTypeName name="com.udaan.interview.GetBalanceModel"/>
 <fullyQualifiedTypeName name="com.udaan.interview.GetBalanceResponseDetails"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="Finally.ClassWithFinally"/>
+<fullyQualifiedTypeName name="Throw.MultiThrows"/>
 </qualifiedTypeNameHistroy>
